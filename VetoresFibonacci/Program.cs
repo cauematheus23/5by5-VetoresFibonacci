@@ -1,4 +1,4 @@
-﻿int n1 = 1, n2 = 1, aux = 0,quant=0;
+﻿int n1 = -1, n2 = 1, aux,quant=0;
 do
 {
     Console.WriteLine("Digite a quantidade de vezes que deseja executar o programa: ");
@@ -7,7 +7,7 @@ do
 for  (int i = 0; i < quant; i++)
 {
     aux = n1 + n2;
-    Console.WriteLine(n1);
+    Console.Write(aux + " ");
     n1 = n2;
     n2 = aux;
     
